@@ -6,6 +6,7 @@ public class FirePointScript : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bullet;
+   
 
     void Update()
     {
@@ -14,7 +15,11 @@ public class FirePointScript : MonoBehaviour
             shoot();
         }
 
+        
+
+
     }
+    
 
     void shoot()
     {

@@ -9,12 +9,12 @@ public class BulletScript_1 : MonoBehaviour
 
     void Start()
     {
-        rb.velocity = transform.right * speed;
+        rb.velocity = transform.up * speed;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        Destroy(gameObject, 5f);
     }
 }
