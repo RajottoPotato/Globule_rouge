@@ -6,7 +6,9 @@ public class FirePointScript : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bullet;
+
    
+
 
     void Update()
     {
@@ -15,8 +17,8 @@ public class FirePointScript : MonoBehaviour
             shoot();
         }
 
-        
 
+       
 
     }
     
@@ -25,5 +27,7 @@ public class FirePointScript : MonoBehaviour
     {
         Instantiate(bullet, firePoint.position, firePoint. rotation);
     }
+
+    
 
 }
